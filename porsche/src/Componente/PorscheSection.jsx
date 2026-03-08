@@ -1,13 +1,12 @@
 import { useState } from "react";
-import "../styles/PorscheSection.css";
-import carImg from "../img/911.jpg";
+import "./PorscheSection.css";
 
 function PorscheSection() {
 
 const [car] = useState({
     title: "Porsche 911",
     description: "El Porsche 911 es uno de los deportivos más icónicos del mundo.",
-    image: carImg,
+    image: "/img/911.jpg",
     button: "Más información"
 });
 
