@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./PorscheSection.css";
+import "./ImagenSection.css";
 
-function PorscheSection() {
+function ImagenSection() {
 
 const [car] = useState({
     title: "Porsche 911",
@@ -33,4 +33,4 @@ return (
 );
 }
 
-export default PorscheSection;
+export default ImagenSection;
