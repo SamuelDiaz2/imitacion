@@ -1,42 +1,50 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+  margin:0;
+  background:#111;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.models{
+  width:90%;
+  margin:auto;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  font-size:40px;
+  margin:40px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.car-card{
+  position:relative;
+  margin-bottom:50px;
 }
 
-.card {
-  padding: 2em;
+.car-card img{
+  width:100%;
+  border-radius:5px;
 }
 
-.read-the-docs {
-  color: #888;
+.car-info{
+  position:absolute;
+  bottom:30px;
+  left:30px;
+}
+
+.car-info h2{
+  font-size:28px;
+}
+
+.type{
+  color:#bbb;
+}
+
+button{
+  margin-top:10px;
+  padding:10px 20px;
+  border:none;
+  background:black;
+  color:white;
+  cursor:pointer;
+  border:1px solid white;
 }

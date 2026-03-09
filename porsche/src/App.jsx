@@ -1,21 +1,21 @@
-import Footer from "./Footer"
+import Footer from "./Footer";
 import PorscheMiniconfig from "./componentes/PorscheMiniconfig";
 import PorscheSection from "./componentes/PorscheSection";
-import PorscheDiscovery from "./Components/PorscheDiscovery";
+import PorscheDiscovery from "./componentes/PorscheDiscovery";
 import Porscheheader from "./componentes/PorscheHeader";
+import ModelsSection from "./componentes/PorscheSection";
 
 function App() {
-
-return (
-  <>
-  <Porscheheader />
-  <PorscheSection />
-  <PorscheMiniconfig/>
-  <PorscheDiscovery />
-  <Footer/>
-  </>
-)
-
+  return (
+    <>
+      <Porscheheader />
+      <ModelsSection />
+      <PorscheSection />
+      <PorscheMiniconfig />
+      <PorscheDiscovery />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
